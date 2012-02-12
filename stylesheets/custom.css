@@ -5,11 +5,13 @@ div#top .main {
 }
 
 #reg.btn {
-  margin-top: 385px;
+  margin-top: 400px;
+  margin-left: 75px;
   font-size: 24px;
   font-weight: normal;
   padding: 18px;
 }
+
 
 div#top {
   height: 560px;
@@ -25,10 +27,14 @@ div#top {
 
 div#about-content {
   background-image: url('../images/tile-darkgrey.png');
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 div#where-content {
   background-image: url('../images/tile-grey.png');
+  border-bottom: 1px solid #DDDDDD;
+  border-top: 1px solid #999999;
 }
 
 div#where-content img {
@@ -41,4 +47,21 @@ div#navigation .logo {
   float: left;
   margin-top: 11px;
   font-size: 1.5em;
+}
+
+div#sponsors-content {
+  background-color: white;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #999999;
+}
+
+div.schedule-box, div.prizes-box {
+  margin-top: 24px;
+  background-color: #FEFEFE;
+  border: 2px solid #BBB;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 24px 0;
+  margin-bottom: 12px;
 }

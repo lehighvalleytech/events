@@ -1,0 +1,44 @@
+div#top .main {
+  background-image: url('../images/bkg-main-steelstacks.jpg');
+  height: 492px;
+  width: 1152px;
+}
+
+#reg.btn {
+  margin-top: 385px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 18px;
+}
+
+div#top {
+  height: 560px;
+  background-color: black;
+  background-image: url('../images/bkg-top-repeat-x.jpg');
+  background-repeat: repeat-x;
+}
+
+.page-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+div#about-content {
+  background-image: url('../images/tile-darkgrey.png');
+}
+
+div#where-content {
+  background-image: url('../images/tile-grey.png');
+}
+
+div#where-content img {
+  padding:5px;
+  background-color: #ffffff;
+  border: 1px solid #AAAAAA;
+}
+
+div#navigation .logo {
+  float: left;
+  margin-top: 11px;
+  font-size: 1.5em;
+}

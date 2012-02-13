@@ -10,6 +10,15 @@
     <link href="stylesheets/custom.css" media="screen" rel="stylesheet" type="text/css" />     
 </head> 
 <body> 
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=237278749693570";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   
   <div id="top">
     <div class="main container_16">
@@ -194,7 +203,7 @@
 				</script>
 			</div>
 			<div class="social-wrap">
-			  <iframe src="//www.facebook.com/plugins/like.php?send=false&amp;layout=box_count&amp;width=80&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp;appId=102914399822688" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width: 80px; height:80px;" allowTransparency="true"></iframe>
+        <div class="fb-like" data-href="http://hack.lehighvalleytech.org" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true"></div>
 			</div>
 		</div>
     <div class="clearfix"></div>
